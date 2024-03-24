@@ -9,19 +9,20 @@ import {
 const extra = {
   hiddenGateways: [
     {
-      owner: "n1phyudpgd98can5gqzywpumv7h47lkqfl458c8z",
-      host: "gw1.notrustverify.ch",
-      explicitIp: "172.105.93.66",
-      identityKey: "EBT8jTD8o4tKng2NXrrcrzVhJiBnKpT1bJy5CMeArt2w",
-      sphinxKey: "3Q9pBR2RZ2xd6WJJPXPxpQniqvdtpv4fUTSFGL4vhqJJ",
+      owner: "n17v3sy8rug93k6qtv702kk72plua5qzhm608k49",
+      host: "gateway1.tupinymquim.com",
+      explicitIp: "139.99.195.169",
+      identityKey: "5SHU62fW1L4xMBEXnfxU9Zz49U9tjQUiDmqEcggUYMNb",
+      sphinxKey: "7GRm5hrMqfMQHqjdP1ALoMesbGeHku2zcvW1EiZcaZ32",
     },
   ],
 };
 
 const mixFetchOptions: SetupMixFetchOps = {
-  preferredGateway: "EBT8jTD8o4tKng2NXrrcrzVhJiBnKpT1bJy5CMeArt2w",
+  preferredGateway: "5SHU62fW1L4xMBEXnfxU9Zz49U9tjQUiDmqEcggUYMNb",
   preferredNetworkRequester:
-    "BNypKaGiGY8GNRN4gpV95GcaVS8n7CrHuoZNgQ2ezqv2.ACpaixzuaSzuMajVQj6aR7cbpbvp676tm21MiLbX1gni@678qVUJ21uwxZBhp3r56z7GRf6gMh3NYDHruTegPtgMf",
+    "V7kSCJVhjKWbJU7HzxF6UMTAxPcUQVVqJyofDtAXiYG.GmyykSnLMbTsq1zjNAWY4hcmAzcCHN1AeBRE7KQsYCtt@5SHU62fW1L4xMBEXnfxU9Zz49U9tjQUiDmqEcggUYMNb
+",
   mixFetchOverride: {
     requestTimeoutMs: 60_000,
   },
