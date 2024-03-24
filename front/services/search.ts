@@ -25,7 +25,7 @@ const mixFetchOptions: SetupMixFetchOps = {
   mixFetchOverride: {
     requestTimeoutMs: 60_000,
   },
-  forceTls: true,
+  forceTls: false,
   extra,
 };
 
