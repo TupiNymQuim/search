@@ -21,8 +21,7 @@ const extra = {
 const mixFetchOptions: SetupMixFetchOps = {
   preferredGateway: "5SHU62fW1L4xMBEXnfxU9Zz49U9tjQUiDmqEcggUYMNb",
   preferredNetworkRequester:
-    "V7kSCJVhjKWbJU7HzxF6UMTAxPcUQVVqJyofDtAXiYG.GmyykSnLMbTsq1zjNAWY4hcmAzcCHN1AeBRE7KQsYCtt@5SHU62fW1L4xMBEXnfxU9Zz49U9tjQUiDmqEcggUYMNb
-",
+    "V7kSCJVhjKWbJU7HzxF6UMTAxPcUQVVqJyofDtAXiYG.GmyykSnLMbTsq1zjNAWY4hcmAzcCHN1AeBRE7KQsYCtt@5SHU62fW1L4xMBEXnfxU9Zz49U9tjQUiDmqEcggUYMNb",
   mixFetchOverride: {
     requestTimeoutMs: 60_000,
   },
